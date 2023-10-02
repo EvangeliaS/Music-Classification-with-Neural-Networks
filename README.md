@@ -31,7 +31,7 @@ The [dataset]() is divided into training, validation, and test sets, comprising 
 
 ## Optimization Algorithms
 
-We have tested various optimization algorithms, and you can find the results in the `optimization_algorithms.py` script. To compare different optimizers, run this script.
+We have tested various optimization algorithms, and you can find the results in the `optimization_algorithms.py` script. 
 
 ## Results
 
