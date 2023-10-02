@@ -13,8 +13,8 @@ This project focuses on music genre classification using both fully connected an
   - [Fully Connected Neural Network](#fully-connected-neural-network)
 - [Mel-spectrograms](#mel-spectrograms)
   - [Convolutional Neural Network](#convolutional-neural-network)
-- [Optimization Algorithms](#optimization-algorithms)
-- [Results](#results)
+  - [Optimization Algorithms](#optimization-algorithms)
+  - [Results](#results)
 
 ## Dataset
 
