@@ -13,31 +13,23 @@ Mel-spectrograms, on the other hand, provide a 21x128 matrix representing the ti
 ## Table of Contents
 
 - [Dataset](#dataset)
-- [Usage](#usage)
-  - [Fully Connected Neural Network](#fully-connected-neural-network)
-  - [Convolutional Neural Network](#convolutional-neural-network)
-  - [Optimization Algorithms](#optimization-algorithms)
+- [Fully Connected Neural Network](#fully-connected-neural-network)
+- [Convolutional Neural Network](#convolutional-neural-network)
+- [Optimization Algorithms](#optimization-algorithms)
 - [Results](#results)
 
 ## Dataset
 
 The [dataset]() is divided into training, validation, and test sets, comprising 3200, 800, and 1376 samples, respectively. PyTorch is used to preprocess the data, build and train the neural network model.
 
-### Fully Connected Neural Network
+## Fully Connected Neural Network
 
-To train and evaluate a fully connected neural network, follow these steps:
 
-1. Run `fully_connected_nn.py` to train the model.
-2. Evaluate the model by running `evaluate_fully_connected_nn.py`.
 
-### Convolutional Neural Network
+## Convolutional Neural Network
 
-To train and evaluate a convolutional neural network, follow these steps:
 
-1. Run `cnn.py` to train the model.
-2. Evaluate the model by running `evaluate_cnn.py`.
-
-### Optimization Algorithms
+## Optimization Algorithms
 
 We have tested various optimization algorithms, and you can find the results in the `optimization_algorithms.py` script. To compare different optimizers, run this script.
 
