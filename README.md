@@ -13,7 +13,6 @@ Mel-spectrograms, on the other hand, provide a 21x128 matrix representing the ti
 ## Table of Contents
 
 - [Dataset](#dataset)
-- [Requirements](#requirements)
 - [Usage](#usage)
   - [Fully Connected Neural Network](#fully-connected-neural-network)
   - [Convolutional Neural Network](#convolutional-neural-network)
