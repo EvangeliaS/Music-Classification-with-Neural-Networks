@@ -63,6 +63,9 @@ As observed, there is a trade-off between execution time and model performance w
 
 Mel-spectrograms, provide a 21x128 matrix representing the time-frequency evolution of audio spectrum when applying the mel scale to the spectrogram.
 
+<img src="images/blues.png" width="300" height="300"> <img src="images/classical.png" width="300" height="300"> <img src="images/hiphop.png" width="300" height="300"> <img src="images/rock.png" width="300" height="300"> 
+
+
 ### Convolutional Neural Network
 
 Here, you can describe the architecture of the convolutional neural network (CNN) used in the project. Include information about the number of convolutional layers, max-pooling layers, and any other architectural details that are relevant. Don't forget to mention the purpose of using a CNN for this task.
