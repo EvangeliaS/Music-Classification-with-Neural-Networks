@@ -63,7 +63,7 @@ As observed, there is a trade-off between execution time and model performance w
 
 Mel-spectrograms, provide a 21x128 matrix representing the time-frequency evolution of audio spectrum when applying the mel scale to the spectrogram.
 
-<img src="images/blues.png" width="300" height="300"> <img src="images/classical.png" width="300" height="300"> <img src="images/hiphop.png" width="300" height="300"> <img src="images/rock.png" width="300" height="300"> 
+<img src="images/blues.png" width="400" height="400"> <img src="images/classical.png" width="400" height="400"> <img src="images/hiphop.png" width="400" height="400"> <img src="images/rock.png" width="400" height="400"> 
 
 
 ### Convolutional Neural Network
