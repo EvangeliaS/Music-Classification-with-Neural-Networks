@@ -10,9 +10,9 @@ This project focuses on music genre classification using both fully connected an
 
 - [Dataset](#dataset)
 - [MFCCs (Mel-frequency cepstral coefficients)](#MFCCs (Mel-frequency-cepstral-coefficients))
-- [Fully Connected Neural Network](#fully-connected-neural-network)
+  - [Fully Connected Neural Network](#fully-connected-neural-network)
 - [Mel-spectrograms](#mel-spectrograms)
-- [Convolutional Neural Network](#convolutional-neural-network)
+  - [Convolutional Neural Network](#convolutional-neural-network)
 - [Optimization Algorithms](#optimization-algorithms)
 - [Results](#results)
 
@@ -24,7 +24,7 @@ The dataset used in this project is composed of audio samples from four differen
 
 MFCCs capture spectral characteristics transformed based on the mel scale, approximating human auditory perception. Each music sample generates a 26-dimensional feature vector by computing the mean and standard deviation for each of the 13 coefficients across 20 time frames.
 
-## Fully Connected Neural Network
+### Fully Connected Neural Network
 
 The fully connected neural network used in this project is designed with four layers, each specifying the number of neurons in that layer. The architecture of the neural network is as follows:
 
@@ -63,7 +63,7 @@ As observed, there is a trade-off between execution time and model performance w
 
 Mel-spectrograms, provide a 21x128 matrix representing the time-frequency evolution of audio spectrum when applying the mel scale to the spectrogram.
 
-## Convolutional Neural Network
+### Convolutional Neural Network
 
 Here, you can describe the architecture of the convolutional neural network (CNN) used in the project. Include information about the number of convolutional layers, max-pooling layers, and any other architectural details that are relevant. Don't forget to mention the purpose of using a CNN for this task.
 
