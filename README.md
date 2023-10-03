@@ -4,7 +4,7 @@ Evangelia Steiropoulou
 
 ## Introduction
 
-This project focuses on music genre classification using both fully connected and convolutional neural networks. The main objective is to classify 1-second music samples into four genres: classical, pop, rock, and blues. Two different audio data representations, MFCCs (Mel-frequency cepstral coefficients) and mel-spectrograms, are utilized.The code along with the detailed analysis can be found in the [music_classification.ipynb](https://github.com/EvangeliaS/Music-Classification-with-Neural-Networks/blob/c7312b91c3c6bd41fbf888a45c968a9cdb9a6f21/music_classification.ipynb) notebook.
+This project focuses on music genre classification using both fully connected and convolutional neural networks. The main objective is to classify 1-second music samples into four genres: classical, hip-hop, rock, and blues. Two different audio data representations, MFCCs (Mel-frequency cepstral coefficients) and mel-spectrograms, are utilized.The code along with the detailed analysis can be found in the [music_classification.ipynb](https://github.com/EvangeliaS/Music-Classification-with-Neural-Networks/blob/c7312b91c3c6bd41fbf888a45c968a9cdb9a6f21/music_classification.ipynb) notebook.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ This project focuses on music genre classification using both fully connected an
 
 ## Dataset
 
-The [dataset](https://github.com/EvangeliaS/Music-Classification-with-Neural-Networks/tree/f47fc3f9401b257989bd223f3c7316f808a13d98/data/music_genre_data_di) used in this project is composed of audio samples from four different music genres: classical, pop, rock, and blues. It is divided into training, validation, and test sets, comprising 3200, 800, and 1376 samples, respectively. PyTorch is used to preprocess the data, build and train the neural network model.
+The [dataset](https://github.com/EvangeliaS/Music-Classification-with-Neural-Networks/tree/f47fc3f9401b257989bd223f3c7316f808a13d98/data/music_genre_data_di) used in this project is composed of audio samples from four different music genres: classical, hip-hop, rock, and blues. It is divided into training, validation, and test sets, comprising 3200, 800, and 1376 samples, respectively. PyTorch is used to preprocess the data, build and train the neural network model.
 
 ## MFCCs
 
