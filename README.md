@@ -4,7 +4,7 @@ Evangelia Steiropoulou
 
 ## Introduction
 
-This project focuses on music genre classification using both fully connected and convolutional neural networks. The main objective is to classify 1-second music samples into four genres: classical, pop, rock, and blues. Two different audio data representations, MFCCs (Mel-frequency cepstral coefficients) and mel-spectrograms, are utilized.The code along with the detailed analysis can be found in the [music_classification.ipynb](https://github.com/EvangeliaS/Music-Classification-with-Neural-Networks/blob/1139fbb6e8525aec1a1120835da6f0b5d4a9c3c6/music_classification.ipynb) notebook.
+This project focuses on music genre classification using both fully connected and convolutional neural networks. The main objective is to classify 1-second music samples into four genres: classical, pop, rock, and blues. Two different audio data representations, MFCCs (Mel-frequency cepstral coefficients) and mel-spectrograms, are utilized.The code along with the detailed analysis can be found in the [music_classification.ipynb](https://github.com/EvangeliaS/Music-Classification-with-Neural-Networks/blob/c7312b91c3c6bd41fbf888a45c968a9cdb9a6f21/music_classification.ipynb) notebook.
 
 ## Table of Contents
 
