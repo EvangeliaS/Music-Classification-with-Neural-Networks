@@ -22,7 +22,7 @@ The [dataset](#data) used in this project is composed of audio samples from four
 
 ## MFCCs
 
-MFCCs(Mel-frequency cepstral coefficients) capture spectral characteristics transformed based on the mel scale, approximating human auditory perception. Each music sample generates a 26-dimensional feature vector by computing the mean and standard deviation for each of the 13 coefficients across 20 time frames.
+MFCCs (Mel-frequency cepstral coefficients) capture spectral characteristics transformed based on the mel scale, approximating human auditory perception. Each music sample generates a 26-dimensional feature vector by computing the mean and standard deviation for each of the 13 coefficients across 20 time frames.
 
 ### Fully Connected Neural Network
 
