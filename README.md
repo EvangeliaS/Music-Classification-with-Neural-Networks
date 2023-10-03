@@ -47,12 +47,12 @@ Here are the results:
 - **CPU Execution Time**: 9.05 seconds
 - **GPU Execution Time**: 13.15 seconds
 
-### Accuracy Comparison
+**Accuracy Comparison**
 
 - **CPU Accuracy**: 62.14%
 - **GPU Accuracy**: 56.40%
 
-### F1-Score Comparison
+**F1-Score Comparison**
 
 - **CPU F1-Score**: 0.611
 - **GPU F1-Score**: 0.554
@@ -65,11 +65,58 @@ Mel-spectrograms, provide a 21x128 matrix representing the time-frequency evolut
 
 <img src="images/blues.png" width="400" height="300"> <img src="images/classical.png" width="400" height="300"> <img src="images/hiphop.png" width="400" height="300"> <img src="images/rock.png" width="400" height="300"> 
 
+## Convolutional Neural Network with Padding
 
-### Convolutional Neural Network
+We have implemented a Convolutional Neural Network (CNN) for music genre classification with added padding to the convolutional layers. Padding is set to 2, and max-pooling layers with a kernel size of 2 are included to downsample the feature maps.
 
-Here, you can describe the architecture of the convolutional neural network (CNN) used in the project. Include information about the number of convolutional layers, max-pooling layers, and any other architectural details that are relevant. Don't forget to mention the purpose of using a CNN for this task.
+### Architecture
 
+Our CNN architecture consists of four convolutional layers followed by fully connected layers. Here's an overview of the architecture:
+
+1. Convolutional Layer 1:
+   - Input channels: 1 (for grayscale)
+   - Output channels: 16
+   - Kernel size: 5x5
+   - Padding: 2
+   - Activation function: ReLU
+   - Max-pooling layer: Kernel size 2
+
+2. Convolutional Layer 2:
+   - Input channels: 16
+   - Output channels: 32
+   - Kernel size: 5x5
+   - Padding: 2
+   - Activation function: ReLU
+   - Max-pooling layer: Kernel size 2
+
+3. Convolutional Layer 3:
+   - Input channels: 32
+   - Output channels: 64
+   - Kernel size: 5x5
+   - Padding: 2
+   - Activation function: ReLU
+   - Max-pooling layer: Kernel size 2
+
+4. Convolutional Layer 4:
+   - Input channels: 64
+   - Output channels: 128
+   - Kernel size: 5x5
+   - Padding: 2
+   - Activation function: ReLU
+   - Max-pooling layer: Kernel size 2
+
+The output from the convolutional layers is then flattened and passed through a stack of fully connected layers:
+
+- Fully Connected Layer 1: 1024 neurons with ReLU activation.
+- Fully Connected Layer 2: 256 neurons with ReLU activation.
+- Fully Connected Layer 3: 32 neurons with ReLU activation.
+- Fully Connected Layer 4 (Output Layer): 4 neurons (corresponding to the number of classes) for classification.
+
+### Training
+
+We trained this CNN model using the SGD optimizer with a learning rate of 0.002 and the Cross-Entropy loss function. The model was trained on the GPU if available; otherwise, it used the CPU.
+
+The addition of padding to the convolutional layers allows the network to better capture spatial information from the input spectrograms, potentially leading to improved performance in music genre classification tasks.
 
 ## Optimization Algorithms
 
