@@ -9,7 +9,7 @@ This project focuses on music genre classification using both fully connected an
 ## Table of Contents
 
 - [Dataset](#dataset)
-- [MFCCs (Mel-frequency cepstral coefficients)](#MFCCs-(mel-frequency-cepstral-coefficients))
+- [MFCCs (Mel-frequency cepstral coefficients)](#mfccs)
   - [Fully Connected Neural Network](#fully-connected-neural-network)
 - [Mel-spectrograms](#mel-spectrograms)
   - [Convolutional Neural Network with Padding](#convolutional-neural-network-with-padding)
@@ -20,9 +20,9 @@ This project focuses on music genre classification using both fully connected an
 
 The [dataset](#data) used in this project is composed of audio samples from four different music genres: classical, pop, rock, and blues. It is divided into training, validation, and test sets, comprising 3200, 800, and 1376 samples, respectively. Unfortunately, the dataset is not publicly available at the moment, but you can easily replace it with your own music dataset. PyTorch is used to preprocess the data, build and train the neural network model.
 
-## MFCCs (Mel-frequency cepstral coefficients)
+## MFCCs
 
-MFCCs capture spectral characteristics transformed based on the mel scale, approximating human auditory perception. Each music sample generates a 26-dimensional feature vector by computing the mean and standard deviation for each of the 13 coefficients across 20 time frames.
+MFCCs(Mel-frequency cepstral coefficients) capture spectral characteristics transformed based on the mel scale, approximating human auditory perception. Each music sample generates a 26-dimensional feature vector by computing the mean and standard deviation for each of the 13 coefficients across 20 time frames.
 
 ### Fully Connected Neural Network
 
