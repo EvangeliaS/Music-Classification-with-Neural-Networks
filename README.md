@@ -42,6 +42,9 @@ The fully connected neural network used in this project is designed with four la
   - The output layer contains 4 neurons, representing the number of classes for music genre classification.
 
 The neural network takes 26-dimensional input data and passes it through these layers to make predictions for the music genre. It is trained using stochastic gradient descent (SGD) with a learning rate of 0.002 and the CrossEntropyLoss as the loss function. 
+
+### Performance Evaluation
+
 The model is trained on CPU and GPU, and the performance is evaluated.
 Here are the results:
 
