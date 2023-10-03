@@ -4,7 +4,7 @@ Evangelia Steiropoulou
 
 ## Introduction
 
-This project focuses on music genre classification using both fully connected and convolutional neural networks. The main objective is to classify 1-second music samples into four genres: classical, pop, rock, and blues. Two different audio data representations, MFCCs (Mel-frequency cepstral coefficients) and mel-spectrograms, are utilized.
+This project focuses on music genre classification using both fully connected and convolutional neural networks. The main objective is to classify 1-second music samples into four genres: classical, pop, rock, and blues. Two different audio data representations, MFCCs (Mel-frequency cepstral coefficients) and mel-spectrograms, are utilized.The code along with the detailed analysis can be found in the [music_classification.ipynb](#music_classification.ipynb) notebook.
 
 ## Table of Contents
 
@@ -12,13 +12,13 @@ This project focuses on music genre classification using both fully connected an
 - [MFCCs (Mel-frequency cepstral coefficients)](#MFCCs (Mel-frequency-cepstral-coefficients))
   - [Fully Connected Neural Network](#fully-connected-neural-network)
 - [Mel-spectrograms](#mel-spectrograms)
-  - [Convolutional Neural Network](#convolutional-neural-network)
+  - [Convolutional Neural Network with Padding](#convolutional-neural-network-with-padding)
   - [Optimization Algorithms](#optimization-algorithms)
   - [Results](#results)
 
 ## Dataset
 
-The dataset used in this project is composed of audio samples from four different music genres: classical, pop, rock, and blues. It is divided into training, validation, and test sets, comprising 3200, 800, and 1376 samples, respectively. Unfortunately, the dataset is not publicly available at the moment, but you can easily replace it with your own music dataset. PyTorch is used to preprocess the data, build and train the neural network model.
+The [dataset](#data) used in this project is composed of audio samples from four different music genres: classical, pop, rock, and blues. It is divided into training, validation, and test sets, comprising 3200, 800, and 1376 samples, respectively. Unfortunately, the dataset is not publicly available at the moment, but you can easily replace it with your own music dataset. PyTorch is used to preprocess the data, build and train the neural network model.
 
 ## MFCCs (Mel-frequency cepstral coefficients)
 
@@ -69,7 +69,7 @@ Mel-spectrograms, provide a 21x128 matrix representing the time-frequency evolut
 
 We have implemented a Convolutional Neural Network (CNN) for music genre classification with added padding to the convolutional layers. Padding is set to 2, and max-pooling layers with a kernel size of 2 are included to downsample the feature maps.
 
-### Architecture
+  **Architecture**
 
 Our CNN architecture consists of four convolutional layers followed by fully connected layers. Here's an overview of the architecture:
 
@@ -112,7 +112,7 @@ The output from the convolutional layers is then flattened and passed through a 
 - Fully Connected Layer 3: 32 neurons with ReLU activation.
 - Fully Connected Layer 4 (Output Layer): 4 neurons (corresponding to the number of classes) for classification.
 
-### Training
+  **Training**
 
 We trained this CNN model using the SGD optimizer with a learning rate of 0.002 and the Cross-Entropy loss function. The model was trained on the GPU if available; otherwise, it used the CPU.
 
@@ -138,4 +138,4 @@ Here are the results of our model's performance using various optimization algor
 
 ## Results
 
-$Adagrad$ and $Adamax$ have the best accuracy and the best f1 score as well, as I noticed after several test runs. For this specific runtime, $Adagrad$ has the best scores on both accuracy and f1-score.
+**Adagrad** and **Adamax** have the best accuracy and the best f1 score as well, as I noticed after several test runs. For this specific runtime, **Adagrad** has the best scores on both accuracy and f1-score.
