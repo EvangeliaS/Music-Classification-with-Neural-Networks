@@ -120,11 +120,22 @@ The addition of padding to the convolutional layers allows the network to better
 
 ## Optimization Algorithms
 
-We have tested various optimization algorithms, and you can find the results in the `optimization_algorithms.py` script. 
-$Adagrad$ and $Adamax$ have the best accuracy and the best f1 score as well, as I noticed after several test runs. For this specific runtime, $Adagrad$ has the best scores on both accuracy and f1-score.
+Here are the results of our model's performance using various optimization algorithms:
 
+  | Algorithm   | Accuracy  | F1 Score  |
+  |-------------|-----------|-----------|
+  | Adadelta    | 0.646076  | 0.646242  |
+  | Adagrad     | 0.757994  | 0.756246  |
+  | Adam        | 0.646802  | 0.656903  |
+  | AdamW       | 0.692587  | 0.698515  |
+  | Adamax      | 0.716570  | 0.724806  |
+  | ASGD        | 0.696221  | 0.706873  |
+  | NAdam       | 0.235465  | 0.095294  |
+  | RAdam       | 0.694767  | 0.699481  |
+  | RMSprop     | 0.646802  | 0.647611  |
+  | Rprop       | 0.653343  | 0.657362  |
+  | SGD         | 0.678779  | 0.685902  |
 
 ## Results
 
-We tested several optimization algorithms and found that Adagrad performed the best in terms of both accuracy and F1 score. You can find the detailed results in the project.
-
+$Adagrad$ and $Adamax$ have the best accuracy and the best f1 score as well, as I noticed after several test runs. For this specific runtime, $Adagrad$ has the best scores on both accuracy and f1-score.
