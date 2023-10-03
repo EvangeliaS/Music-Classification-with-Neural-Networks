@@ -9,7 +9,7 @@ This project focuses on music genre classification using both fully connected an
 ## Table of Contents
 
 - [Dataset](#dataset)
-- [MFCCs (Mel-frequency cepstral coefficients)](#MFCCs-mel-frequency-cepstral-coefficients))
+- [MFCCs (Mel-frequency cepstral coefficients)](#MFCCs-(mel-frequency-cepstral-coefficients))
   - [Fully Connected Neural Network](#fully-connected-neural-network)
 - [Mel-spectrograms](#mel-spectrograms)
   - [Convolutional Neural Network with Padding](#convolutional-neural-network-with-padding)
