@@ -19,7 +19,7 @@ This project focuses on music genre classification using both fully connected an
 
 ## Dataset
 
-The [dataset](#data) used in this project is composed of audio samples from four different music genres: classical, pop, rock, and blues. It is divided into training, validation, and test sets, comprising 3200, 800, and 1376 samples, respectively. Unfortunately, the dataset is not publicly available at the moment, but you can easily replace it with your own music dataset. PyTorch is used to preprocess the data, build and train the neural network model.
+The [dataset](#data/music_genre_data_di) used in this project is composed of audio samples from four different music genres: classical, pop, rock, and blues. It is divided into training, validation, and test sets, comprising 3200, 800, and 1376 samples, respectively. Unfortunately, the dataset is not publicly available at the moment, but you can easily replace it with your own music dataset. PyTorch is used to preprocess the data, build and train the neural network model.
 
 ## MFCCs
 
